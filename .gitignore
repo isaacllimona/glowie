@@ -1,0 +1,15 @@
+# Kicad temporary files and backups
+.history
+*-backups
+*.bak
+*.lck
+
+# Local project settings
+*.kicad_prl
+
+# Generated BOM files
+*.ods
+*.csv
+
+# Misc local things
+.local

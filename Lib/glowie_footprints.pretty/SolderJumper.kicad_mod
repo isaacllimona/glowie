@@ -1,0 +1,143 @@
+(footprint "SolderJumper"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "JP9"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f5cef670-b13d-4d38-99d0-217991a34c39")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper_2_Open"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c462f599-63aa-45b7-aeb5-4470cc307ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79180a61-142b-4599-b12f-b29b77ed1624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d940f55-3842-4330-bc9f-7e3bdaf802df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "SolderJumper*Open*")
+	(sheetname "/GP_Button/")
+	(sheetfile "gp_button.kicad_sch")
+	(zone_connect 1)
+	(attr exclude_from_bom allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.78 -0.399919)
+		(end 0.715 0.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "726cf0bd-0588-4265-b634-50ac8fb8f499")
+	)
+	(fp_poly
+		(pts
+			(xy 0.930978 0.6) (xy 0.930978 -0.6) (xy -1.019022 -0.6) (xy -1.019022 0.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "978d943c-bdbe-46a1-8586-f6dc7fbde40a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.25 0.8) (xy -1.25 -0.8) (xy 1.15 -0.8) (xy 1.15 0.8)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b2c6a36d-2411-4296-aab8-bb617808f8fa")
+	)
+	(pad "1" smd custom
+		(at -0.63 0)
+		(size 0.3 0.3)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.65 0) (xy 0.35 0.4) (xy -0.15 0.4) (xy -0.15 -0.4) (xy 0.35 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0346410e-1740-4b25-a1cd-6c78868ebe4a")
+	)
+	(pad "2" smd custom
+		(at 0.5 0)
+		(size 0.3 0.3)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.215 0.4) (xy -0.55 0.4) (xy -0.25 0) (xy -0.55 -0.4) (xy 0.215 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e46d6318-82d3-4b7d-b608-f3dd09c15623")
+	)
+	(embedded_fonts no)
+)
