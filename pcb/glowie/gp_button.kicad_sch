@@ -1621,12 +1621,6 @@
 		(uuid "5c71ba9f-5f63-4901-8371-31c1b6489d07")
 	)
 	(junction
-		(at 161.29 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05067037-74f3-4274-8b22-5781c2133535")
-	)
-	(junction
 		(at 196.85 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1685,6 +1679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da030e32-db03-483e-9581-30add5097d61")
+	)
+	(junction
+		(at 161.29 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc003a57-ab3b-4662-a535-22254efa1edc")
 	)
 	(junction
 		(at 167.64 86.36)
@@ -1754,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 113.03) (xy 194.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a25fa4-e44e-489d-a9d1-8c29ac78d6f0")
+	)
+	(wire
+		(pts
 			(xy 194.31 113.03) (xy 209.55 113.03)
 		)
 		(stroke
@@ -1811,16 +1821,6 @@
 			(type default)
 		)
 		(uuid "48f072dd-86ef-47fa-80c3-fd27f7657a30")
-	)
-	(wire
-		(pts
-			(xy 161.29 113.03) (xy 194.31 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557569d1-bddd-45bd-be2e-233e3ff2c1ec")
 	)
 	(wire
 		(pts
@@ -2064,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 113.03) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b592ede1-e844-4ff8-b0ff-8f06f1facaf2")
+	)
+	(wire
+		(pts
 			(xy 139.7 113.03) (xy 147.32 113.03)
 		)
 		(stroke
@@ -2161,16 +2171,6 @@
 			(type default)
 		)
 		(uuid "f91d71ef-7300-41b1-97b3-e32dd2cfb4d2")
-	)
-	(wire
-		(pts
-			(xy 161.29 113.03) (xy 161.29 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed34787-245c-4112-bdab-625245f3a8bb")
 	)
 	(wire
 		(pts
@@ -2562,6 +2562,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 182.88 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 182.88 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab7c409f-73b5-47d8-87cb-642dc787cbd4")
 		)
@@ -2714,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 151.13 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,6 +3570,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 110.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 110.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2f86aba7-062c-4e1c-ab3a-5a3d34215bd3")
 		)
@@ -3662,6 +3706,28 @@
 			)
 		)
 		(property "MPN" "0402"
+			(at 124.46 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 124.46 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
 			(at 124.46 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3992,7 +4058,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 165.1 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "1M"
 			(at 182.88 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,6 +4715,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 139.7 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 139.7 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40b862fb-f58c-45c4-b5b3-719d7c0a12ff")
 		)
@@ -4763,6 +4851,28 @@
 			)
 		)
 		(property "MPN" "0402"
+			(at 109.22 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 109.22 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
 			(at 109.22 62.23 90)
 			(hide yes)
 			(show_name no)

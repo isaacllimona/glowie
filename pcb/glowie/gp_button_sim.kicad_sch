@@ -1276,12 +1276,6 @@
 		(uuid "7346ee45-7720-4ff3-b7b9-148e74a78359")
 	)
 	(junction
-		(at 208.28 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9468fdeb-0942-4c5d-9655-a0626c6b3607")
-	)
-	(junction
 		(at 242.57 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1292,6 +1286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1d70400-97af-4ab7-8801-656f1b9c8da6")
+	)
+	(junction
+		(at 105.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db474593-4d34-4dea-94ad-4ebf473c7d66")
 	)
 	(wire
 		(pts
@@ -1332,6 +1332,16 @@
 			(type default)
 		)
 		(uuid "28762488-6441-43c5-98ce-173322d407dd")
+	)
+	(wire
+		(pts
+			(xy 105.41 119.38) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290cf314-de4c-465e-8e29-f2a15d73ad40")
 	)
 	(wire
 		(pts
@@ -1485,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 105.41) (xy 110.49 105.41)
+			(xy 90.17 105.41) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1502,6 +1512,16 @@
 			(type default)
 		)
 		(uuid "a5bcced0-367d-42da-ac65-08d4dbe013e5")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6054e10-d136-45b6-9db8-48b85149050f")
 	)
 	(wire
 		(pts
@@ -1555,16 +1575,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 90.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57d30dc-e784-48c1-a386-46c29ac1f5e0")
-	)
-	(wire
-		(pts
 			(xy 196.85 55.88) (xy 196.85 48.26)
 		)
 		(stroke
@@ -1575,16 +1585,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 208.28 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5af4666-ebbc-4f7c-9892-38b058c89408")
-	)
-	(wire
-		(pts
 			(xy 196.85 48.26) (xy 208.28 48.26)
 		)
 		(stroke
@@ -1592,6 +1592,16 @@
 			(type default)
 		)
 		(uuid "f2ee0bcf-cc4c-440e-b1e7-ff24a6b4fabb")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9994a39-91dd-4c86-a0d9-f6026e5c4669")
 	)
 	(wire
 		(pts
@@ -1809,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "3"
 			(at 237.49 60.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +2100,7 @@
 				(justify left)
 			)
 		)
-		(property "Sim.Params" "y1=-1 y2=1 td=1 tr=2n tf=2n tw=0.02 per=5"
+		(property "Sim.Params" "y1=-1 y2=1 td=0 tr=2n tf=2n tw=30 per=60"
 			(at 67.1802 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.7"
+		(property "Value" "4.2"
 			(at 262.89 60.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,6 +2639,105 @@
 			(project "glowie"
 				(path "/9c5b5a12-c6d6-47fd-bc0f-fd7712ded438"
 					(reference "V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adaca053-b701-4178-8a7a-0e7801aba9ad")
+		(property "Reference" "R29"
+			(at 107.95 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.188 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402 1M"
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39373849-99f6-4103-b1ce-a4211da1e37f")
+		)
+		(pin "2"
+			(uuid "65ddd976-7d45-4229-ba10-86f0e9415251")
+		)
+		(instances
+			(project "gp_button_sim"
+				(path "/0420817f-a395-4a26-909d-946f57998baf"
+					(reference "R655")
+					(unit 1)
+				)
+			)
+			(project "glowie"
+				(path "/9c5b5a12-c6d6-47fd-bc0f-fd7712ded438"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2835,6 +2944,90 @@
 			(project "glowie"
 				(path "/9c5b5a12-c6d6-47fd-bc0f-fd7712ded438"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1745fb-0f55-4745-aae9-b813138be9e3")
+		(property "Reference" "#PWR200"
+			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a05b60ca-3525-404e-877b-776b53dc7d30")
+		)
+		(instances
+			(project "gp_button_sim"
+				(path "/0420817f-a395-4a26-909d-946f57998baf"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "glowie"
+				(path "/9c5b5a12-c6d6-47fd-bc0f-fd7712ded438"
+					(reference "#PWR200")
 					(unit 1)
 				)
 			)

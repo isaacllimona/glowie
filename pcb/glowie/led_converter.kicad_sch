@@ -1525,7 +1525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800k 1%"
+		(property "Value" "820k 1%"
 			(at 173.99 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,7 +1685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k 1%"
+		(property "Value" "240k 1%"
 			(at 173.99 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,9 +1822,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c"
 					(reference "C16")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -1861,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-322510"
+		(property "Footprint" "glowie_footprints:Inductor_SRP3212"
 			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1916,9 +1913,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c"
 					(reference "L1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -2000,9 +1994,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c"
 					(reference "C15")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -2116,9 +2107,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c"
 					(reference "U7")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -2278,9 +2266,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c"
 					(reference "C14")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)

@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 2m 30",
+        ".tran 50m 1",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -28,7 +28,43 @@
         },
         {
           "color": "rgb(55, 126, 184)",
-          "signal": "V(/GP_Button/BUTTON)",
+          "signal": "V(Net-_D111-A_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(Net-_D112-A_)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 50m 20",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/GP_Button/3V3_EN)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(Net-_D112-A_)",
           "trace_type": 257
         }
       ]

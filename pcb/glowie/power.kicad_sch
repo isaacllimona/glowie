@@ -4166,9 +4166,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "D1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -4250,9 +4247,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "C11")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -4658,9 +4652,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "Q1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -4988,9 +4979,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "R15")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5083,9 +5071,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "F1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5358,9 +5343,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "U3")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5551,9 +5533,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "U4")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5713,9 +5692,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "J3")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5798,9 +5774,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "C12")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -5894,9 +5867,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "R14")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -6367,9 +6337,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "C10")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -6475,7 +6442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 130.8101 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6541,9 +6508,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "R16")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -6798,9 +6762,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91/f29f8936-0547-4472-aee5-f28e2297dea7"
 					(reference "R13")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)

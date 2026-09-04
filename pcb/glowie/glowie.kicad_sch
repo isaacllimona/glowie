@@ -6835,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 1%"
+		(property "Value" "0"
 			(at 239.522 25.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6900,9 +6900,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R9")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -7160,9 +7157,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R11")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -7322,9 +7316,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -7416,7 +7407,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c3dd15c-31dd-4eae-bc69-5b76525bce5d")
 		(property "Reference" "U5"
 			(at 213.7567 148.59 0)
@@ -7826,9 +7817,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "U2")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -8147,9 +8135,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -9140,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 69.85 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,9 +9190,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R2")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -9299,9 +9281,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R8")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -9384,9 +9363,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10003,9 +9979,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "U1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10166,9 +10139,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "JP7")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10405,9 +10375,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "JP6")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10434,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 69.85 35.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,9 +10466,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10659,9 +10623,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10822,9 +10783,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C7")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10907,9 +10865,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C6")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -10999,11 +10954,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "J1")
 					(unit 1)
-					(variant
-						(name "BQ297")
-						(dnp no)
-						(in_bom yes)
-					)
 				)
 			)
 		)
@@ -11091,11 +11041,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "BQ297")
-						(dnp no)
-						(in_bom yes)
-					)
 				)
 			)
 		)
@@ -11177,9 +11122,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)
@@ -11270,9 +11212,6 @@
 				(path "/e94b00b5-9412-4075-aca8-78df6d9c8e91"
 					(reference "R12")
 					(unit 1)
-					(variant
-						(name "BQ297")
-					)
 				)
 			)
 		)

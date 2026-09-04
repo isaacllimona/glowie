@@ -141,11 +141,6 @@
 			(outputdirectory "")
 		)
 	)
-	(variants
-		(variant
-			(name "BQ297")
-		)
-	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
 		(layer "F.Cu")
 		(uuid "03308fd0-8dca-4063-85a0-c444a52b946f")
@@ -286,7 +281,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "38f83159-cf70-463b-b2df-f36ebf239515")
+			(uuid "ad283581-7a97-4d7e-9d75-e5801f75fcb3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -294,11 +289,11 @@
 				)
 			)
 		)
-		(property "Value" "0.1 1%"
+		(property "Value" "0"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "dbe63679-fff4-4090-9e58-f2821f5d0d9b")
+			(uuid "8c8c1488-2dc4-4e31-a65c-2120f72b0845")
 			(effects
 				(font
 					(size 1 1)
@@ -311,7 +306,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "332e84c3-81e5-4fde-95da-c04ff65d7f62")
+			(uuid "4b2278ed-abe7-4a11-b5d2-8d8300a7e669")
 			(effects
 				(font
 					(size 1 1)
@@ -324,7 +319,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63394301-176a-4782-82d6-0a015b221c1a")
+			(uuid "2023af47-b6e2-4c18-bac3-5859666aad90")
 			(effects
 				(font
 					(size 1 1)
@@ -452,7 +447,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4f4fc6c9-ebd0-43f4-a87a-2c9da8668de7")
+			(uuid "953fcc3a-0976-4be1-a08f-31744cf35088")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -464,7 +459,7 @@
 			(at 0 1.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d2a545bf-9f9d-438c-a853-b91384befadf")
+			(uuid "0ce836ae-de55-408e-83a4-1a21a437ab04")
 			(effects
 				(font
 					(size 1 1)
@@ -477,7 +472,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0b1912d-181f-4df4-8dff-10a2420b711b")
+			(uuid "79c0775a-810c-4d67-9fc3-ee9fe779a1ec")
 			(effects
 				(font
 					(size 1 1)
@@ -490,7 +485,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02d424b2-4b26-488b-93b9-929fa0724322")
+			(uuid "8f9fadf6-389b-4f2b-bb67-a112224b11ba")
 			(effects
 				(font
 					(size 1 1)
@@ -530,6 +525,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5323b086-54b6-4ea7-a87b-02f2e155741e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7402880-fa68-436f-8c78-5f61f2ceb248")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02c51ca5-0978-4631-a6bc-b45f60be64cd")
 			(effects
 				(font
 					(size 1 1)
@@ -954,7 +975,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ff9fb61b-524c-4681-b0d3-ae035f41b593")
+			(uuid "2f84f2de-ca8e-484d-875d-5a7a2a184054")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -966,7 +987,7 @@
 			(at -1 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "212f1d46-509c-458e-a988-5b1b60677945")
+			(uuid "e3fc9b53-84c1-466a-a8ec-97628e4a1d60")
 			(effects
 				(font
 					(size 1 1)
@@ -979,7 +1000,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df59dba7-c675-4c2d-9c5d-2d1896f92f68")
+			(uuid "d312a8e0-37fe-4cc2-94a1-ac29cf4e1069")
 			(effects
 				(font
 					(size 1 1)
@@ -992,7 +1013,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c44382e-7752-4a58-8b79-a99f3807e1cd")
+			(uuid "57fff54e-6ead-42e4-8430-ee9592ef05d3")
 			(effects
 				(font
 					(size 1 1)
@@ -1390,7 +1411,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2ec3c097-f9e9-423a-adce-a22638e61c26")
+			(uuid "955eede3-957c-4f95-bb71-adf5579a83f1")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1402,7 +1423,7 @@
 			(at 0 1.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e79c40fa-4557-4021-b02a-3013ef8e5b6b")
+			(uuid "95f9b2b7-b76a-433c-adea-3ac66b11b665")
 			(effects
 				(font
 					(size 1 1)
@@ -1415,7 +1436,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b05f4cbf-f08a-4dc9-8c35-293292e90980")
+			(uuid "5d96cef1-ee42-4885-9154-ea86574c87d3")
 			(effects
 				(font
 					(size 1 1)
@@ -1428,7 +1449,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d104c23-79c2-482f-9d6d-0612330b39d5")
+			(uuid "01d34114-9ca7-4542-b6b4-832952cc1000")
 			(effects
 				(font
 					(size 1 1)
@@ -1468,6 +1489,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6faf2dbb-8f84-47cf-91bd-4715ff90a06a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85dcf2ca-f9bc-4a72-839f-bb71a7ac8e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07a9b90a-7177-407b-9696-fa6fdd021716")
 			(effects
 				(font
 					(size 1 1)
@@ -2492,7 +2539,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5ce1965c-9ffb-4020-8279-4e3f4cf3cc12")
+			(uuid "baf225b5-93a2-4d32-b233-1de0a038037e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2504,7 +2551,7 @@
 			(at 0 1.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "86799ccc-d7a7-43e0-b6d2-b935a93f22fe")
+			(uuid "e1ab0a83-c630-43ba-a79b-3fc2bf06f28e")
 			(effects
 				(font
 					(size 1 1)
@@ -2517,7 +2564,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d190e50-7ea7-4f5f-a94f-9510dfaf8075")
+			(uuid "0c771ff3-7fe2-4439-a81f-cf07a9e9aa83")
 			(effects
 				(font
 					(size 1 1)
@@ -2530,7 +2577,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38d10741-235f-454d-98d5-8b0186ff7db9")
+			(uuid "728d062c-3752-48d3-b93b-ba88b8780083")
 			(effects
 				(font
 					(size 1 1)
@@ -2570,6 +2617,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4defe7d4-3e44-4e30-ac5c-3e907f990c35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eded2b95-056f-4775-993a-6a75c14ed602")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e38ca34-3a5f-4874-912b-2d88360bceee")
 			(effects
 				(font
 					(size 1 1)
@@ -4588,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4901,7 +4974,7 @@
 			(at -1.76 -0.050001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5523761d-9cbd-4c98-a3d8-8601da02dc26")
+			(uuid "4db1128f-16b5-4644-9d57-425b179234f3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4909,11 +4982,11 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "97659374-2394-48e2-b32e-0b643a76f8e8")
+			(uuid "f6bd84b3-ab0c-4bfa-82df-8e6b6c5f8a57")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4926,7 +4999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "782a9038-61db-47cf-9451-fe32b73b01e8")
+			(uuid "978a3469-1f2e-4acb-87f9-e5900e348622")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4939,7 +5012,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4237a8a5-171b-4e02-afaf-ef8eb4f001ca")
+			(uuid "89090121-6526-4141-bccb-61b0478a0555")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5074,7 +5147,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 0 1.17 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5234,7 +5307,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3c067272-fc7a-46f7-abae-da771c95e107")
+			(uuid "1fb5cc8e-cbb3-413e-95cd-8711a385bc72")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5246,7 +5319,7 @@
 			(at 0 1.35 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3cf8f969-8543-4f64-8b5f-745a7acffdf5")
+			(uuid "27b52b12-ef41-4bfa-9fc4-79a26333ed26")
 			(effects
 				(font
 					(size 1 1)
@@ -5259,7 +5332,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa737bea-c688-4617-95df-dae3590f7ff1")
+			(uuid "f08e586c-435c-4846-a165-ba0b20fb769a")
 			(effects
 				(font
 					(size 1 1)
@@ -5272,7 +5345,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b082c67e-6130-4e78-b506-c2c97fa69c5f")
+			(uuid "60b8d352-dd06-473e-9469-21e7e2011e42")
 			(effects
 				(font
 					(size 1 1)
@@ -5312,6 +5385,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd2c75f6-f09f-4551-83dd-434a63f57ed8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c89a798a-dbdf-46fe-bca0-5e37a807220f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74e1568-85fb-4981-be5d-1e6513d49a69")
 			(effects
 				(font
 					(size 1 1)
@@ -7387,6 +7486,12 @@
 		(path "/f29f8936-0547-4472-aee5-f28e2297dea7/ce6e4aab-f460-43b1-a783-3b6f93f34a5c/a7287020-6d0c-410c-a40f-7384afd2c981")
 		(sheetname "/Power/LED_converter/")
 		(sheetfile "led_converter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11293,7 +11398,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e5769617-30a5-4d81-a9af-b16c2cda1e06")
+			(uuid "24cf41fa-eace-4945-9470-83aa15e84b52")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11305,7 +11410,7 @@
 			(at 0 1.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "bc703709-96cc-47f7-8f8e-094ad4ea1715")
+			(uuid "307bcd1c-7b6d-4642-9e65-454c3219d422")
 			(effects
 				(font
 					(size 1 1)
@@ -11318,7 +11423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed7256c9-f5f0-4c08-8b20-10dc5e91d948")
+			(uuid "2a08dfe6-f11f-468a-9b48-40d2bebf38b2")
 			(effects
 				(font
 					(size 1 1)
@@ -11331,7 +11436,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf0aa6c9-2b3e-4ba5-88df-ad9b28cfa39c")
+			(uuid "9b42bb5a-1917-4f42-bfbe-e99c167889cd")
 			(effects
 				(font
 					(size 1 1)
@@ -11371,6 +11476,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51e88e2b-b0f8-4b03-a220-bdbf2b40461a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "/home/isaac/devel/glowie/pcb/pcb/Lib/sim/DLLFSD01LP3.spice.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46072cef-b61e-4fac-96b7-0f725f538769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DLLFSD01LP3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7943cd10-debb-410b-970f-35c884549035")
 			(effects
 				(font
 					(size 1 1)
@@ -12057,7 +12188,7 @@
 				)
 			)
 		)
-		(property "Value" "800k 1%"
+		(property "Value" "820k 1%"
 			(at 0 1.17 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12202,7 +12333,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b2619fa5-0b9f-4214-8629-fbb41f26c2fb")
+			(uuid "ba9789a6-fdf6-41b4-b1a7-1fe261237cac")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12210,11 +12341,11 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 0 1.16 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4031e8c6-4279-4a5c-9b27-766128f4a2ed")
+			(uuid "ed4532b4-066c-44ab-b41d-e477711afb72")
 			(effects
 				(font
 					(size 1 1)
@@ -12227,7 +12358,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5e12460-17fa-4e22-b231-74cb47820b3f")
+			(uuid "2fe30c08-40d7-4691-8c75-040a2777bbff")
 			(effects
 				(font
 					(size 1 1)
@@ -12240,7 +12371,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2953a10a-0ab1-44e5-9a61-6a495c5512c4")
+			(uuid "222e8014-ea0e-4598-a3e2-46d1c83a0f78")
 			(effects
 				(font
 					(size 1 1)
@@ -12355,7 +12486,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dd5eb1af-c488-46d4-874e-62c089a79f10")
+			(uuid "f5cb1f1d-b70f-4b02-8a75-56fc9761dee7")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12367,7 +12498,7 @@
 			(at 0 1.95 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "85998f99-0ee2-4afb-a9a8-4c6e862ce511")
+			(uuid "69aaa31e-7150-4833-8ea4-7e7bc103b374")
 			(effects
 				(font
 					(size 1 1)
@@ -12380,7 +12511,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8961420-eeb9-43f4-bd51-331f5b34bd91")
+			(uuid "da264d68-15f9-43b4-bd73-4685d7ef5630")
 			(effects
 				(font
 					(size 1 1)
@@ -12393,7 +12524,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9aa62eac-203c-4c6e-b121-c718a849c181")
+			(uuid "2fd953df-14c2-4f51-8a60-a1200bccd586")
 			(effects
 				(font
 					(size 1 1)
@@ -12411,7 +12542,7 @@
 				(pins "2" "3" "5" "1" "4" "8" "7" "6")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.105568 -1.185)
@@ -13160,7 +13291,7 @@
 				)
 			)
 		)
-		(property "Value" "200k 1%"
+		(property "Value" "240k 1%"
 			(at 0 1.17 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13612,7 +13743,7 @@
 			(at 1.645 -3.525 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4f1591e3-6236-4cb7-9d41-b534db720dcd")
+			(uuid "21831405-ab8f-440c-9449-1651f7e99dc9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13624,7 +13755,7 @@
 			(at 0 3.4 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "396ded89-fb19-4172-bebc-2b2fbea77ce2")
+			(uuid "07a12a93-899a-43da-a66c-aaf922fcff7b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13637,7 +13768,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6b9a9ec-5d16-4d15-9ec8-847ca0bf30ff")
+			(uuid "5a127d09-93fe-44bf-95ea-16a14b9c148b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13650,7 +13781,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c524258-5379-473e-b3d5-48d0536a7f5d")
+			(uuid "2edda2c4-b306-41ac-a73e-8de5c33ee654")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14192,7 +14323,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ce9dd39d-3af1-422a-b69b-a38c27428607")
+			(uuid "385f5a0b-f035-40a5-a6c8-5aca1b8311f9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14200,11 +14331,11 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "1M"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4b565d46-9bb8-4f66-a2df-d9eda82d68ff")
+			(uuid "c81842d3-8d27-4ba3-a523-03f4807711cf")
 			(effects
 				(font
 					(size 1 1)
@@ -14217,7 +14348,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b434c4c1-1730-4ece-9e50-c9b1b5b4697f")
+			(uuid "d2def753-2990-43b0-9fb2-bc88a42543a6")
 			(effects
 				(font
 					(size 1 1)
@@ -14230,7 +14361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80252043-5162-4524-9662-961f374bf750")
+			(uuid "ce3420f1-3026-457f-b2e6-ac1245fb4ff9")
 			(effects
 				(font
 					(size 1 1)
@@ -14911,7 +15042,7 @@
 			(at -1.75 -0.000001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "434460c8-a9d5-47b4-a9ac-f7cd261ca396")
+			(uuid "3cd5b1ca-a4b6-43a7-97ef-53e708cc3204")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14919,11 +15050,11 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "121e224c-9e35-4eda-a951-b3e9b4e6c149")
+			(uuid "2a175939-c9a6-4ea8-b726-fbd85e91e2d9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14936,7 +15067,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b0b87a2-b2cd-40e6-8bc7-51c1ca75feda")
+			(uuid "1a63726d-c9f3-4000-9c60-479109548616")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14949,7 +15080,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f853307-eb06-47b8-a949-adcb8068ade2")
+			(uuid "2f40937a-99ae-4688-9c76-8f351cb0f30b")
 			(effects
 				(font
 					(size 0.8 0.8)
