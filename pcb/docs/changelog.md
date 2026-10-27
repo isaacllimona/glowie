@@ -1,5 +1,8 @@
 # Changelog
 
+### panel v0 rev B1
+- Finding [1] -> Fix USB protection IC routing
+
 ### mainboard v0 rev A2
 - Set U2 level shift to DNP
 - Swap uc current sense resistor for jumper

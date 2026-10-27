@@ -41,5 +41,7 @@ Experimental findings for pulldown values:
 
 ## panel v0 rev A
 
-### [1] Bad routing
+### [1] ~~Bad routing~~
+*fixed in rev B*
+
 - The USB protection IC routing is wrong. I/O pins are mixed up.
